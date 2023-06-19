@@ -21,6 +21,15 @@
     justify-content: space-between;
 }
 
+.contact-info__block li {
+    list-style-type: none;
+}
+
+.contact-info__block li a {
+    text-decoration: none;
+    color: var(--text-decoration-color);
+}
+
 .contact-info__block--center {
     justify-content: center;
 }
